@@ -1,0 +1,42 @@
+export const Pokedex: {[k: string]: ModdedSpeciesData} = {
+	inteleon: {
+		inherit: true,
+		otherFormes: ["Inteleon-Mega"],
+		formeOrder: ["Inteleon", "Inteleon-Mega"],
+	},
+	inteleonmega: {
+		num: 818,
+		name: "Inteleon-Mega",
+		baseSpecies: "Inteleon",
+		forme: "Mega",
+		types: ["Water"],
+		baseStats: {hp: 70, atk: 105, def: 85, spa: 151, spd: 95, spe: 134},
+		abilities: {0: "Sniper"},
+		heightm: 3,
+		weightkg: 0,
+		color: "Blue",
+		tags: ["Fakemon"],
+		eggGroups: ["Water 1", "Field"],
+		requiredItem: "Inteleonite",
+	},
+	granbull: {
+		inherit: true,
+		otherFormes: ["Granbull-Mega"],
+		formeOrder: ["Granbull", "Granbull-Mega"],
+	},
+	granbullmega: {
+		num: 210,
+		name: "Granbull-Mega",
+		baseSpecies: "Granbull",
+		forme: "Mega",
+		types: ["Fairy", "Dark"],
+		baseStats: {hp: 90, atk: 163, def: 107, spa: 47, spd: 78, spe: 106},
+		abilities: {0: "Berserk"},
+		heightm: 1.4,
+		weightkg: 48.7,
+		color: "Purple",
+		tags: ["Fakemon"],
+		eggGroups: ["Field", "Fairy"],
+		requiredItem: "Granbulite",
+	}
+};
