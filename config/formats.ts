@@ -30,7 +30,7 @@ export const Formats: FormatList = [
 			'Standard NatDex', 'OHKO Clause', 'Evasion Clause',
 			'Species Clause', 'Sleep Clause Mod', 'Z-Move Clause',
 			'Dynamax Clause', 'Terastal Clause',
-			'Season Complex Ban', 'Season Unbanlist', 'Season Banlist',
+			// 'Season Complex Ban', 'Season Unbanlist', 'Season Banlist',
 		],
 
 	},
@@ -42,7 +42,7 @@ export const Formats: FormatList = [
 			'Standard NatDex', 'OHKO Clause', 'Evasion Clause',
 			'Species Clause', 'Sleep Clause Mod', 'Z-Move Clause',
 			'Dynamax Clause', 'Terastal Clause',
-			'Season Complex Ban', 'Season Unbanlist', 'Season Banlist',
+			// 'Season Complex Ban', 'Season Unbanlist', 'Season Banlist',
 		],
 
 	},
@@ -54,7 +54,7 @@ export const Formats: FormatList = [
 			'Standard NatDex', 'OHKO Clause', 'Evasion Clause',
 			'Species Clause', 'Sleep Clause Mod', 'Z-Move Clause',
 			'Dynamax Clause', 'Terastal Clause',
-			'Season Complex Ban', 'Season Unbanlist', 'Season Banlist',
+			// 'Season Complex Ban', 'Season Unbanlist', 'Season Banlist',
 		],
 
 	},
@@ -70,7 +70,7 @@ export const Formats: FormatList = [
 			'Standard NatDex', 'OHKO Clause', 'Evasion Clause',
 			'Species Clause', 'Sleep Clause Mod', 'Z-Move Clause',
 			'Dynamax Clause', 'Terastal Clause',
-			'Season Complex Ban', 'Season Unbanlist', 'Season Banlist',
+			// 'Season Complex Ban', 'Season Unbanlist', 'Season Banlist',
 		],
 
 	},
@@ -86,7 +86,7 @@ export const Formats: FormatList = [
 			'Standard NatDex', 'OHKO Clause', 'Evasion Clause',
 			'Species Clause', 'Sleep Clause Mod', 'Z-Move Clause',
 			'Dynamax Clause', 'Terastal Clause',
-			'Season Complex Ban', 'Season Unbanlist', 'Season Banlist',
+			// 'Season Complex Ban', 'Season Unbanlist', 'Season Banlist',
 		],
 
 	},
