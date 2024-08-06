@@ -3374,11 +3374,28 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	deerling: {
 		tier: "LC",
 	},
+	// #region sawsbuck
 	sawsbuck: {
-		tier: "ZU",
+		tier: "(PU)",
 		doublesTier: "(DUU)",
 		natDexTier: "RU",
 	},
+	sawsbucksummer: {
+		tier: "PU",
+		isNonstandard: "Past",
+		natDexTier: "RU",
+	},
+	sawsbuckwinter: {
+		tier: "PU",
+		isNonstandard: "Past",
+		natDexTier: "RU",
+	},
+	sawsbuckautumn: {
+		tier: "PU",
+		isNonstandard: "Past",
+		natDexTier: "RU",
+	},
+	// #endregion
 	emolga: {
 		isNonstandard: "Past",
 		tier: "Illegal",
