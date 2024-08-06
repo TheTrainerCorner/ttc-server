@@ -16,9 +16,6 @@ export const Scripts: ModdedBattleScriptsData = {
 	inherit: 'gen9',
 	init() {
 		// #region Functions
-		const changeNatDexTier = (pokemon: string, tier: string) => {
-			this.modData('FormatsData', pokemon.toLowerCase().replace(/ +/g, '').replace('-', '')).natDexTier = tier.toUpperCase();
-		};
 		const changeTier = (pokemon: string, tier: string) => {
 			this.modData('FormatsData', pokemon.toLowerCase().replace(/ +/g, '').replace('-', '')).tier = tier.toUpperCase();
 		};
@@ -62,36 +59,36 @@ export const Scripts: ModdedBattleScriptsData = {
 		}
 		// #endregion
 		// #region Modifying Tiers
-		changeNatDexTier('alakazammega', 'OU');
-		changeNatDexTier('annihilape', 'OU');
-		changeNatDexTier('blazikenmega', 'OU');
-		changeNatDexTier('chienpao', 'OU');
-		changeNatDexTier('chiyu', 'OU');
-		changeNatDexTier('darmanitangalar', 'OU');
-		changeNatDexTier('espathra', 'OU');
-		changeNatDexTier('dracovish', 'OU');
-		changeNatDexTier('fluttermane', 'OU');
-		changeNatDexTier('genesect', 'OU');
-		changeNatDexTier('gengarmega', 'OU');
-		changeNatDexTier('houndstone', 'OU');
-		changeNatDexTier('ironbundle', 'OU');
-		changeNatDexTier('kangaskhanmega', 'OU');
-		changeNatDexTier('kyuremblack', 'OU');
-		changeNatDexTier('landorus', 'OU');
-		changeNatDexTier('lucariomega', 'OU');
-		changeNatDexTier('marshadow', 'OU');
-		changeNatDexTier('melmetal', 'OU');
-		changeNatDexTier('metagrossmega', 'OU');
-		changeNatDexTier('naganadel', 'OU');
-		changeNatDexTier('palafin', 'OU');
-		changeNatDexTier('palafinhero', 'OU');
-		changeNatDexTier('regieleki', 'OU');
-		changeNatDexTier('roaringmoon', 'OU');
-		changeNatDexTier('salamencemega', 'OU');
-		changeNatDexTier('spectrier', 'OU');
-		changeNatDexTier('urshifu', 'OU');
-		changeNatDexTier('walkingwake', 'OU');
-		changeNatDexTier('zygarde', 'OU');
+		changeTier('alakazammega', 'OU');
+		changeTier('annihilape', 'OU');
+		changeTier('blazikenmega', 'OU');
+		changeTier('chienpao', 'OU');
+		changeTier('chiyu', 'OU');
+		changeTier('darmanitangalar', 'OU');
+		changeTier('espathra', 'OU');
+		changeTier('dracovish', 'OU');
+		changeTier('fluttermane', 'OU');
+		changeTier('genesect', 'OU');
+		changeTier('gengarmega', 'OU');
+		changeTier('houndstone', 'OU');
+		changeTier('ironbundle', 'OU');
+		changeTier('kangaskhanmega', 'OU');
+		changeTier('kyuremblack', 'OU');
+		changeTier('landorus', 'OU');
+		changeTier('lucariomega', 'OU');
+		changeTier('marshadow', 'OU');
+		changeTier('melmetal', 'OU');
+		changeTier('metagrossmega', 'OU');
+		changeTier('naganadel', 'OU');
+		changeTier('palafin', 'OU');
+		changeTier('palafinhero', 'OU');
+		changeTier('regieleki', 'OU');
+		changeTier('roaringmoon', 'OU');
+		changeTier('salamencemega', 'OU');
+		changeTier('spectrier', 'OU');
+		changeTier('urshifu', 'OU');
+		changeTier('walkingwake', 'OU');
+		changeTier('zygarde', 'OU');
 		// #endregion
 
 		// #region Modifying Pokemon
