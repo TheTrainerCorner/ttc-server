@@ -1192,13 +1192,13 @@ export const Scripts: ModdedBattleScriptsData = {
 		// #endregion
 
 		//#region Give Paradox Formes without dex sprite to use gen 5 sprite
-		this.modData('Pokedex', 'ironboulder').tags.push('Use Gen 5');
-		this.modData('Pokedex', 'ironcrown').tags.push('Use Gen 5');
-		this.modData('Pokedex', 'ragingbolt').tags.push('Use Gen 5');
-		this.modData('Pokedex', 'gougingfire').tags.push('Use Gen 5');
-		this.modData('Pokedex', 'terapagos').tags.push('Use Gen 5');
-		this.modData('Pokedex', 'terapagosstellar').tags.push('Use Gen 5');
-		this.modData('Pokedex', 'terapagosterastal').tags.push('Use Gen 5');
+		// this.modData('Pokedex', 'ironboulder').tags.push('Use Gen 5');
+		// this.modData('Pokedex', 'ironcrown').tags.push('Use Gen 5');
+		// this.modData('Pokedex', 'ragingbolt').tags.push('Use Gen 5');
+		// this.modData('Pokedex', 'gougingfire').tags.push('Use Gen 5');
+		// this.modData('Pokedex', 'terapagos').tags.push('Use Gen 5');
+		// this.modData('Pokedex', 'terapagosstellar').tags.push('Use Gen 5');
+		// this.modData('Pokedex', 'terapagosterastal').tags.push('Use Gen 5');
 		//#endregion
 	},
 };
